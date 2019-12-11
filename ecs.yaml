@@ -11,11 +11,11 @@ Parameters:
     Description: Select at two subnets in your selected VPC.
   DesiredCapacity:
     Type: Number
-    Default: '1'
+    Default: '2'
     Description: Number of instances to launch in your ECS cluster.
   MaxSize:
     Type: Number
-    Default: '1'
+    Default: '3'
     Description: Maximum number of instances that can be launched in your ECS cluster.
   InstanceType:
     Description: EC2 instance type
